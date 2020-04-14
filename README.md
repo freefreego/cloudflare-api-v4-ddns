@@ -3,7 +3,7 @@
 * 把域名接入cloudflare
 * 获取Global API Key
 * 设置用于 DDNS 解析的二级域名，流量不经过CDN(云朵变灰)
-* 下载 DNNS 脚本
+* 下载 DDNS 脚本
 * 修改 DDNS 脚本并补充相关信息
 * 设置定时任务
 
@@ -18,7 +18,7 @@
 添加一条A记录，例如：hkt.test.com，Proxy status设置成DNS only
 ![2](https://i.loli.net/2019/08/17/DzHSaNEb1ZBU5pC.png "2")
 
-## 下载 DNNS 脚本
+## 下载 DDNS 脚本
 ```bash
 curl https://raw.githubusercontent.com/aipeach/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x /root/cf-v4-ddns.sh
 ```
